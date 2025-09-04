@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PGY1 Progress Bar</title>
+    <title>Move-In / FM Residency Progress Bar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -45,7 +45,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Intern Year</h1>
+        <h1>Move-In Loading...</h1>
         <div class="dates">
             <span id="startDateDisplay"></span>
             <span id="endDateDisplay"></span>
@@ -58,8 +58,8 @@
 
     <script>
         // Hardcoded dates
-        const startDate = new Date('2024-07-02').getTime();
-        const endDate = new Date('2025-06-25').getTime();
+        const startDate = new Date('2024-07-01').getTime();
+        const endDate = new Date('2027-07-01').getTime();
 
         function updateProgress() {
             const currentDate = new Date().getTime();
